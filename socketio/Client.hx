@@ -6,7 +6,10 @@ package socketio;
 @:build(linc.Linc.touch())
 @:build(linc.Linc.xml('socketio'))
 #end
+@:native('client')
 extern class Client {
+        @:native('new client') static function create () : Client;
+        @:native('~client') function delete () : Void;
 
         //external native function definition
         //can be wrapped in linc::libname or call directly
