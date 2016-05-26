@@ -1,16 +1,16 @@
-#ifndef _LINC_EMPTY_H_
-#define _LINC_EMPTY_H_
+#ifndef _LINC_SOCKETIO_H_
+#define _LINC_SOCKETIO_H_
     
-// #include "../lib/____"
+#include "../lib/socket.io-client-cpp/src/sio_client.h"
 
 #include <hxcpp.h>
 
 namespace linc {
 
-    namespace empty {
+    namespace socketio {
 
-    } //empty namespace
+    } //socketio namespace
 
 } //linc
 
-#endif //_LINC_EMPTY_H_
+#endif //_LINC_SOCKETIO_H_
