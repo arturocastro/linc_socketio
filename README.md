@@ -1,4 +1,4 @@
-# linc/empty
-An example empty project to start a linc library.
+# linc_socketio
+Native Haxe C++ bindings for the [socket.io](http://socket.io/) C++ client library.
 
-For more information, see the [linc homepage](http://snowkit.github.io/linc/)
+For more information about linc, see the [linc homepage](http://snowkit.github.io/linc/)
